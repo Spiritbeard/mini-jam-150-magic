@@ -157,7 +157,7 @@ MonoBehaviour:
   - {fileID: 2846116228774586784, guid: aa90ddf066677a543b76a6a865cd2fa4, type: 3}
   - {fileID: 2846116228774586784, guid: e74afe706b2338844b1a921702056406, type: 3}
   player: {fileID: 364457393}
-  checkerRadius: 0.2
+  checkerRadius: 0.01
   terrainMask:
     serializedVersion: 2
     m_Bits: 64
@@ -192,10 +192,10 @@ GameObject:
   - component: {fileID: 364457396}
   - component: {fileID: 364457395}
   - component: {fileID: 364457394}
+  - component: {fileID: 364457400}
   - component: {fileID: 364457398}
   - component: {fileID: 364457399}
   - component: {fileID: 364457401}
-  - component: {fileID: 364457400}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -701,17 +701,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1723745196724793446, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_Size.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723745196724793446, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_Size.y
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723745196724793446, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2382357546192012204, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.040733494
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382357546192012204, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1484282
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382357546192012204, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.023023702
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2382357546192012204, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -745,6 +757,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain Chunk
       objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3365408443855665957, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4098692364655647784, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: propSpawnPoints.Array.size
       value: 7
@@ -756,6 +792,10 @@ PrefabInstance:
     - target: {fileID: 4098692364655647784, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: propSpawnPoints.Array.data[7]
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4114924677059961053, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4114924677059961053, guid: bb4632df846f7914cb3af6f99112cd23, type: 3}
       propertyPath: m_IsTrigger
